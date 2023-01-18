@@ -1,0 +1,659 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFAF9;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li,a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	text-decoration:none;
+}
+
+.cta button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500px;
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+}
+
+.btn button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+	border-color: white;
+	border: 0px solid white;
+}
+
+header{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 15px 15px;
+}
+
+.logo{
+	
+	cursor: pointer;
+	margin-left:0px;
+}
+
+.logo img { 
+	
+	height: 30px; 
+	width: 30px; 
+}
+
+.nav_links{
+	list-style: none;
+	display: flex-end;
+	float: right;	
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: grey;
+}
+
+.cta button{
+	padding: 11px 25px;
+	background-color: black;
+	border: none;
+	border-radius: 17px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.cta button:hover{
+	background-color: grey;
+}
+
+.banner{
+	width: 100%;
+	height: 650px;
+	top:17%;
+	left:0px;
+	position: absolute;
+	
+}
+
+.app-text{
+	width: 50%;
+	float: left;
+	margin-top: 40px;
+}
+
+.app-text h1{
+	font-size: 73px;
+	margin: 0;
+	width: 410px;
+	position: relative;
+	margin-left: 30px;
+	font-family: "Arial", sans-serif; 
+	padding: 5px 0px;
+}
+
+.app-text h4{
+	width: 600px;
+	font-size: 20px;
+	margin-left: 30px;
+	line-height: 25px;
+	color: #919191;
+	font-family: "Arial", sans-serif;
+	font-weight: 500;
+}
+
+.app-pic{
+	width: 50%;
+	float: right;
+	
+}
+
+.app-pic img{
+	width: 100%;
+	margin-top: 60px;
+	padding-left: -20px;
+	
+}
+
+.main_btn button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 750;
+	font-size: 16px;
+	color: black;
+	text-decoration:none;
+	float: left;
+}
+
+.main_btn button{
+	padding: 12px 25px;
+	background-color: #EDE2D2;
+	border-color: black;
+	border-radius: 15px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+	margin-left: 30px;
+	border: 3px solid black;
+}
+
+.main_btn button:hover{
+	background-color: black;
+	color: white;
+}
+
+.why{
+	width: 100%;
+	height: 75%;
+	top:30px;
+	left:0px;
+	position: absolute;
+	
+}
+
+.topic{
+	width: 50%;
+	float: left;
+	
+}
+
+.topic h1{
+	font-size: 83px;
+	width: 600px;
+	position: sticky;
+	margin-left: 10px;
+	background-color: transparent;
+}
+
+.about_banner1{
+	width: 100%;
+	height: 1100px;
+	top: 750px;
+	left:0px;
+	position: absolute;
+	padding: 10px 10px;
+	
+}
+
+.app-text2{
+	width: 500px;
+	float: left;
+	margin-left: 20px;
+	
+	background-color: #EAE7E7;
+}
+
+.app-text2 h1{
+	font-size: 33px;
+	width: 500px;
+	position: relative;
+	margin-left: 250px;
+	margin-top: 50px;
+	font-family: "Arial", sans-serif;
+}
+
+
+
+.about_text{
+	width: 50%;
+	float: right;
+	
+}
+
+.about_text h4{
+	margin-top: 100px;
+	width: 600px;
+	font-size: 20px;
+	margin-left: 15px;
+	line-height: 25px;
+	color: #393939;
+	font-family: "Arial", sans-serif;
+	font-weight: 500;
+}	
+
+.thirdsection{
+	font-size: 30px;
+	
+	height: 300px;
+}
+
+.officesec{
+	font-size: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 1730px;
+	
+}
+
+.img_class{
+	
+	margin-left:0px;
+}
+
+.img_class img{
+	height: 700px; 
+	width: 100%; 
+}
+
+.process{
+	width: 100%;
+	height: 500px;
+	top:2500px;
+	left:0px;
+	position: absolute;
+}
+
+.column1 {
+  float: left;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column1 img{
+	width: 350px;
+	height: 100px;
+	cursor: pointer;
+}
+
+/* Clear floats after the columns */
+.process:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+.mainhouse{
+	font-size: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 200px;
+	
+}
+
+.house_class{
+	
+	margin-left:0px;
+}
+
+.house_class img{
+	height: 700px; 
+	width: 100%; 
+}
+
+.banner10{
+	width: 100%;
+	height: 350px;
+	top: 3800px;
+	left:0px;
+	position: absolute;
+	align-items: left;
+	
+}
+
+.app-text10{
+	margin-left: 10px;
+	padding: 10px 15px;
+}
+
+.cost{
+	width: 100%;
+	margin-top:250px;
+	height: 350px;
+}
+
+.projimg{
+	font-size: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 60px;
+	
+}
+
+.proj_img{
+	
+	margin-left:0px;
+}
+
+.proj_img img{
+	height: 900px; 
+	width: 100%; 
+}
+
+.project{
+	width: 100%;
+	height: 1000px;
+	top:5400px;
+	left:0px;
+	position: absolute;
+	padding: 70px 20px;
+}
+
+.project h1, h4{
+	margin-left: 10px;
+}
+
+.proj_btn button{
+	font-family: "Arial", sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	color: black;
+	text-decoration:none;
+	float: center;
+}
+
+.proj_btn button{
+	padding: 11px 25px;
+	background-color: #E3E3E2 ;
+	border-color: black;
+	border-radius: 15px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+	justify-content: center;
+	border: 3px solid black;
+}
+
+.proj_btn button:hover{
+	background-color: black;
+	color: white;
+}
+
+.team_btn button{
+	font-family: "Arial", sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	color: black;
+	text-decoration:none;
+	float: center;
+}
+
+.team_btn button{
+	padding: 11px 25px;
+	background-color: white ;
+	border-color: black;
+	border-radius: 15px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+	justify-content: center;
+	border: 3px solid black;
+}
+
+.team_btn button:hover{
+	background-color: black;
+	color: white;
+}
+
+.cost_btn button{
+	font-family: "Arial", sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	color: black;
+	text-decoration:none;
+	float: center;
+}
+
+.cost_btn button{
+	padding: 11px 25px;
+	background-color: white ;
+	border-color: black;
+	border-radius: 15px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+	justify-content: center;
+	border: 3px solid black;
+}
+
+.cost_btn button:hover{
+	background-color: black;
+	color: white;
+}
+
+.team_img{
+	width: 100%;
+	height: 500px;
+	top:6350px;
+	left:0px;
+	position: absolute;
+	
+}
+
+.column {
+  float: left;
+ 
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 35px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column img{
+	width: 350px;
+	height: 100px;
+	cursor: pointer;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.about_banner{
+	width: 100%;
+	height: 350px;
+	top:6730px;
+	left:0px;
+	position: absolute;
+	
+}
+
+.app-text1{
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 85px;
+	background-color: #C2C1AF;
+}
+
+.app-text1 h1{
+	font-size: 33px;
+	width: 500px;
+	position: relative;
+	margin-left: 15px;
+	font-family: "Arial", sans-serif;
+}
+
+.app-text1 h4{
+	width: 600px;
+	font-size: 15px;
+	margin-left: 15px;
+	line-height: 25px;
+	color: #393939;
+	font-family: "Arial", sans-serif;
+}
+
+.proj_cta{
+		display: flex-end;
+}
+
+.proj_cta button{
+	padding: 10px 25px;
+	background-color: #C2C1AF;
+	border-color: black;
+	border-radius: 15px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+	/*margin-right: 15px;
+	margin-left: 40px;*/
+	margin-top: 150px;
+	margin-right: 80px;	
+	float: right;
+	border: 3px solid black;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: black;
+	text-decoration:none;
+	align-items: right;
+	display: flex-end;
+}
+
+.proj_cta button:hover{
+	background-color: black;
+	color: white;
+}
+
+.banner1{
+	width: 100%;
+	height: 350px;
+	top:7100px;
+	left:0px;
+	position: absolute;
+	
+}
+
+.app-text3{
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 85px;
+	background-color: #C2C1AF;
+}
+
+.app-text3 h1{
+	font-size: 33px;
+	width: 500px;
+	position: relative;
+	margin-left: 15px;
+	font-family: "Arial", sans-serif;
+}
+
+.app-text3 h4{
+	width: 600px;
+	font-size: 15px;
+	margin-left: 15px;
+	line-height: 25px;
+	color: black;
+	font-family: "Arial", sans-serif;
+}
+
+/**{
+font-family: cursive;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+color: #fff;
+
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(news.png);
+height: 100vh;
+webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+position: relative;
+}
+
+.background{
+	background: white;
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+.nav-bar{
+	width: 70%;
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+
+.logo img {
+	width: 180px;
+	border-radius: 50px;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: black;
+	text-align: right;
+}
+
+.nav-list li a:hover {
+	color: grey;
+}*/

@@ -1,0 +1,410 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFAF9;
+}
+
+li,a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	text-decoration:none;
+}
+
+.cta button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+}
+
+.btn button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+	border-color: white;
+}
+
+header{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 15px 15px;
+	/*position: fixed;*/
+}
+
+.logo{
+	
+	cursor: pointer;
+	margin-left:0px;
+}
+
+.logo img { 
+	
+	height: 30px; 
+	width: 30px; 
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: grey;
+}
+
+.banner{
+	width: 100%;
+	height: 400px;
+	top:200px;
+	left:0px;
+	position: absolute;
+	padding: 75px 15px;
+}
+
+.app-text{
+	width: 50%;
+	float: left;
+	top: 50%;
+}
+
+.app-text h1{
+	font-size: 70px;
+	width: 600px;
+	position: relative;
+	margin-left: 15px;
+	font-family: "Ariel",sans-serif;
+	padding: 2.5px 0px;
+}
+
+.app-text h4{
+	width: 600px;
+	font-size: 17px;
+	margin-left: 17px;
+	line-height: 25px;
+	color: #919191;
+	font-family: "Ariel",sans-serif;
+}
+
+.cta button{
+	padding: 9px 25px;
+	background-color: black;
+	border: none;
+	border-radius: 17px;
+	cursor:pointer;
+	height: 50px;
+	transition: all 0.3s ease 0s;
+	
+}
+
+.cta button:hover{
+	background-color: grey;
+}
+
+.section {
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 90%;
+	margin: auto;
+}
+
+.firstsection {
+	font-size: 30px;
+	background-color: #E2E2E1;
+	height: 600px;
+}
+		
+.firsthalf {
+	font-size: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.text-big {
+	font-family: 'Poppins', serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.text-small {
+	font-size: 20px;
+}
+
+.cont-form{
+	width: 37%;
+	height: 50%;
+	top:0%;
+	left:670px;
+	bottom: 15px;
+	position: absolute;
+	background-color: transparent; /*#D8D5D4;*/
+	box-shadow: rgba(0,0,0,0.2) 0px 2px 4px 0px inset;
+}
+
+.fn-class{
+	font-family: Poppins;
+	font-size: 14px;
+	color: rgba(0,0,0,0.8);
+	background-color: rgb(255,255,255);
+	border-color: rgb(191,191,191);
+	border-radius: 0px;
+	border-width: 1px;
+	box-shadow: rgba(0,0,0,0.25) 0px 2px 4px 0px inset;
+	width: 400px;
+	height: 30px;
+	left: 20px;
+	text-align: left;
+}
+
+.box-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+	max-width: 100%;
+	margin: auto;
+	height: 40%;
+	background-color: #6E4A43;
+}
+
+.secondsection {
+	font-size: 30px;
+	background-color: #6E4A43;
+	height: 100px;
+}
+
+.firsthalf {
+	font-size: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #6E4A43;
+	top: 50px;
+}
+
+.links{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #6E4A43;
+	text-align: center;
+	padding: 0px 0px;
+	float: left;
+}
+
+.links li{
+	
+	padding: 0px 0px;
+	
+}
+
+.links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.thirdsection{
+	font-size: 30px;
+	margin-top: 200px;
+	height: 450px;
+}
+
+.officesec{
+	font-size: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	
+}
+
+.img_class{
+	
+	margin-left:0px;
+}
+
+.img_class img{
+	height: 0px; 
+	width: 100%; 
+}
+
+.box{
+	
+	background-color: #F0E7E6 ;
+	height: 800px;
+	margin-top: 0px;
+	justify-content: space-between;
+	padding: 20px 20px;
+}
+
+.box h2{
+	font-size: 40px;
+	margin-left:0px;
+}
+
+.box h4{
+	font-size: 20px;
+	margin-left: 0px;
+	
+}
+
+.first{
+	width: "50%";
+	font-size: 16px;
+	margin-left: 30x;
+	float: left;
+}
+
+.second{
+	width: "50%";
+	font-size: 16px;
+	margin-left: 60px;
+	margin-right: 30px;
+	float: right;
+}
+
+.banner1{
+	width: 100%;
+	height: 300px;
+	margin-top:0px;
+	left:0px;
+	position: absolute;
+	
+}
+
+.app-text2{
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 85px;
+	background-color: #C2C1AF;
+}
+
+.app-text2 h1{
+	font-size: 33px;
+	width: 500px;
+	position: relative;
+	margin-left: 15px;
+	font-family: "Arial", sans-serif;
+}
+
+.app-text2 h4{
+	width: 600px;
+	font-size: 15px;
+	margin-left: 15px;
+	line-height: 25px;
+	color: black;
+	font-family: "Arial", sans-serif;
+}
+
+.team_img{
+	width: 100%;
+	height: 90px;
+	margin-top:0px;
+	left:0px;
+	position: absolute;
+	background-color: #5F5150
+
+}
+
+.column {
+  float: left;
+  padding: 20px;
+  height: 60px; /* Should be removed. Only for demonstration */
+  background-color: #5F5150;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 25%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 33.33%;
+  padding: 35px 95px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  background-color: #5F5150;
+  text-align: center;
+  display:inline-block;
+}
+
+.column img{
+	width: 200px;
+	height: 500px;
+	cursor: pointer;
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*.add{
+	align-items: left;
+	font-size: 15px;
+	font-family: Poppins;
+	color: white;
+}
+
+.ph{
+	align-items: center;
+	font-size: 15px;
+	font-family: Poppins;
+	color: white;
+}
+
+.em{
+	align-items: right;
+	font-size: 15px;
+	font-family: Poppins;
+	color: white;
+}
+
+.head{
+	font-size: 15px;
+	font-family: Poppins;
+	color: #BC9790;
+}
+
+.sec_banner{
+	width: 100%;
+	height: 75%;
+	top:25%;
+	left:0px;
+	position: absolute;
+	
+}*/

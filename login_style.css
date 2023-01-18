@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFAF9;
+}
+
+.login{
+	width: 50%;
+	height: 55%;
+	top:15%;
+	left:300px;
+	bottom: 15px;
+	position: absolute;
+	text-align:center;
+	background-position: center center;
+	box-shadow: rgba(0,0,0,0.2) 0px 2px 4px 0px inset;
+}
+
+.logo{
+	margin-top: 20px;
+	
+	align-items: center;
+}
+
+.logo img{
+	height: 30px; 
+	width: 30px;
+}
+
+.fn-class{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,0.8);
+	background-color: rgb(255,255,255);
+	border-color: rgb(191,191,191);
+	border-radius: 0px;
+	border-width: 1px;
+	box-shadow: rgba(0,0,0,0.25) 0px 2px 4px 0px inset;
+	width: 300px;
+	height: 50px;
+	left: 30px;
+}
+
+.label-text{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,0.8);
+	background-color: rgb(255,255,255);
+	border-color: rgb(191,191,191);
+	border-radius: 0px;
+	border-width: 1px;
+	box-shadow: rgba(0,0,0,0.2) 0px 2px 4px 0px inset;
+	right: 40px;
+}
+
+.label-text{
+	font-family: "Arial", sans-serif;
+	font-size: 13px;
+	background-color: transparent;
+}
+
+.cta button{
+	font-family: "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+}
+
+.cta button{
+	padding: 9px 25px;
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+}
